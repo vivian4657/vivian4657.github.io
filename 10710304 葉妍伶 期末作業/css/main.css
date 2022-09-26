@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #c5e1e4;
+}
+
+
+/*wrap*/
+
+.wrap {
+    width: 1440px;
+    margin: 0 auto;
+    background: #f4f2dd;
+}
+
+
+/*header*/
+
+header {
+    width: 100%;
+    height: 725px;
+    background: url("../images/header.jpg") no-repeat center 0;
+    padding: 25px 120px 0 120px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+header .social {
+    text-align: right;
+}
+
+header .social a {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin-left: 12px;
+}
+
+header .social a img {}
+
+header h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 170px;
+}
+
+header h1 img {}
+
+header h2 {
+    width: 100%;
+    text-align: center;
+    color: #e7bb2c;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 48px;
+}
+
+header nav {
+    position: absolute;
+    bottom: 106px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 44px;
+}
+
+header nav a {
+    color: #c5e1e4;
+    line-height: 44px;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border: 3px solid #b7c098;
+    border-radius: 30px;
+}
+
+header nav a:hover {
+    background: #b7c098;
+    color: #f4f2dd;
+}
+
+header nav a span {
+    margin-right: 8px;
+}
+
+
+/*main*/
+
+.main {
+    width: 1200px;
+    margin: -50px 120px 0 120px;
+    overflow: hidden;
+}
+
+.main ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main ul li {
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 380px;
+    height: 380px;
+    overflow: hidden;
+}
+
+.main ul li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.main ul li a {}
+
+.main ul li a .text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: #fff;
+    background: #b7c098;
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 40%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.main ul li a :hover.text {
+    opacity: 1;
+}
+
+.main ul li a .text:before {
+    content: "";
+    position: absolute;
+    LEFT: 20px;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+    border: 1px solid #fff;
+}
+
+.main ul li a img {}
+
+
+/*about*/
+
+.about {
+    width: 100%;
+    height: 320px;
+    background: #b7c098;
+    padding: 140px 120px 0 120px;
+    box-sizing: border-box;
+    color: #fff
+}
+
+.about .logo {
+    float: left;
+}
+
+.about .logo img {}
+
+.about .info {
+    float: right;
+}
+
+.about .info ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.about .info ul li {
+    float: left;
+    margin-right: 32px;
+}
+
+.about .info ul li:nth-child(2N) {
+    clear: left;
+}
+
+.about .info ul li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 36px;
+    font-size: 18px;
+}
+
+.about .info ul li a:hover {
+    color: #c5e1e4;
+}
+
+.about .info ul li a span {
+    margin-right: 8px;
+}
+
+
+/*footer*/
+
+footer {
+    width: 100%;
+    background: #97b9b5;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer span {
+    margin: 0 15px;
+}
+
+footer span a {
+    color: #fff;
+}
+
+footer span a:hover {
+    text-decoration: rgb(255, 99, 99);
+    color: #b7c098;
+}
